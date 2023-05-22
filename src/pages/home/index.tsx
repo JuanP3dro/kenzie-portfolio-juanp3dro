@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -35,9 +34,16 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Sou um Desenvolvedor Full Stack em formação, já formado em
+              Front-end pela Kenzie Academy Brasil. Possuo sólidos conhecimentos
+              em programação com HTML, CSS, JavaScript, React, Typescript, Redux
+              e consumo de APIs Rest, além de controle de versionamento com
+              Github, GIT e GitFlow, ampla vivencia em metódogias ágeis como o
+              Scrum e fluência em Inglês.
+              <br />
+              No momento estou no final do curso de Back-end na Kenzie Academy
+              Brasil onde adquiri experiência no desenvolvimento de APIs REST
+              com Express e PostgresSQL e com Python e Django. 
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
